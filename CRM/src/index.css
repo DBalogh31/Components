@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "@mantine/core/styles.css";
+
+/* Firefox scrollbar styles */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #e9ecef transparent;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #e9ecef;
+  border-radius: 8px;
+}
